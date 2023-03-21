@@ -15,7 +15,7 @@
     color:rgb(50, 190, 50);
 }
 .welcome{
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left: 5rem;
 }
 .welcome p{
@@ -40,9 +40,11 @@
     border:none;
 }
 .welcome h2{
-    margin-top: 1rem;
+    margin-top: 0rem;
     margin-bottom: 1rem;
 }
+
+
 
 .welcome button:hover{
     background-color: rgb(6, 189, 0);
@@ -294,9 +296,10 @@ h4{
    
 }
 #msg{
-    margin-left: 29rem;
-    padding: 1rem;
+  
+    padding: 2rem;
     font-size: 1.5rem;
+    
 
 }
 .heading{
@@ -323,6 +326,9 @@ h4{
 }
 
 @media screen and (max-width: 1000px){
+    body{
+        overflow-wrap: normal;
+    }
     .hero{
       display: none;
     }
@@ -346,11 +352,12 @@ h4{
     }
     .food, .fiesta{
 
-        display: none;
+    font-size: 2rem;
     }
     .user h1{
-       font-size: 2rem;
+       font-size: 1rem;
        margin-right: 1rem;
+       margin-top: 1rem;
         
         
     }
@@ -359,8 +366,9 @@ h4{
     
     .recipe-list{
     
-        margin-left: 2rem;
-        width: 80vw;
+        margin-left: 1rem;
+        width: 90vw;
+       
     }
     .recipe-list h2{
     
@@ -378,13 +386,14 @@ h4{
     .recipe-edit{
 
         position: fixed;
-        top: 1rem;
-        left: 1rem;
+        margin-top: 2rem;
+        left: 2rem;
         border-radius: 0.5rem;
         background-color: rgba(245, 245, 245, 0.952);
         border: 0.2px solid black;
         width: 80%;
         padding: 1rem;
+        height: 70%;
     }
 
 

@@ -21,7 +21,7 @@ export default function Welcome() {
       if (response.status === 201) {
         console.log('success')
         const msg = document.querySelector('#msg')
-        msg.innerText = 'Account Creation Successful, Please login now!'
+        msg.innerText = 'Success! Please login now'
       }
       return response.text()
     })

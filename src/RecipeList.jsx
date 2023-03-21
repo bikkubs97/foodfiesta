@@ -14,7 +14,7 @@ export default function RecipeList({ recipes, userName}) {
 
     </div>
     <div className="user">
-    <h1>Welcome {userName} !</h1  >
+    <h1>Welcome {userName} !</h1 >
     <button className="danger" onClick={handleSignOut}>Sign Out</button>
     </div>
     </div>

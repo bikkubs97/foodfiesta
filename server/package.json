@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "type": "module",
-  "homepage": "https://foodfiesta.onrender.com",
+ 
   "scripts": {
     "devStart": "nodemon sever.js"
   },
