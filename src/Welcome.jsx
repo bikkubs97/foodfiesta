@@ -52,7 +52,9 @@ export default function Welcome() {
   
 
   return (
+    
     <div className="welcome">
+      <div className="welcome-cont">
       <div id="msg"></div>
       <span className="food">Food</span>
       <span className="fiesta">Fiesta</span>
@@ -85,6 +87,7 @@ export default function Welcome() {
       <p>Already have an account? Please Sign In.</p>
       <button onClick={()=>window.location.href = '/login'}>Sign In</button>
       <div className="hero"></div>
+    </div>
     </div>
   );
 }
