@@ -9,6 +9,8 @@ export default function Register() {
 
   function handleSignIn(event) {
     event.preventDefault()
+    const msg = document.querySelector("#msg")
+        msg.innerText = "Please Wait....!"
     fetch("https://foofiesta-server.onrender.com/users/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
