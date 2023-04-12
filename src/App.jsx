@@ -15,16 +15,10 @@ function App() {
   const [selectedRecipeId, setSelectedRecipeId] = useState()
   const [recipes, setRecipes] = useState([])
   const [userName, setUserName]=useState('')
-  const selectedRecipe = recipes.find(recipe => recipe.id === selectedRecipeId)
+  const selectedRecipe = recipes && recipes.find(recipe => recipe.id === selectedRecipeId)
 
-  /*useEffect(() => {
-    const recipeJSON = localStorage.getItem(LOCAL_STORAGE_KEY)
-    if (recipeJSON != null) setRecipes(JSON.parse(recipeJSON))
-  }, [])
 
-  useEffect(() => {
-    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(recipes))
-  }, [recipes])*/
+
   useEffect(() => {
     const token = localStorage.getItem('token')
     if (token) {
