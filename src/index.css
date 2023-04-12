@@ -208,18 +208,17 @@ padding-top: 2rem;
 
 .recipe-edit{
 
-    position: fixed;
-    top: 8rem;
+    position: absolute;
+    top: 6rem;
     right: 3rem;
+    overflow-y: auto;
 
-    background-color: rgba(255, 255, 255, 0.986);
- 
+    background-color: rgba(255, 255, 255, 0.986); 
     width: 45%;
     padding-left: 2rem;
     padding-right: 1rem;
     padding-bottom: 1.5rem;
     font-size: 0.8rem;
-    overflow-y:auto;
     z-index: 1;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     
