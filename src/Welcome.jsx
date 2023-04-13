@@ -21,7 +21,7 @@ export default function Welcome() {
     .then(response => {
       if (response.status === 201) {
         console.log('success')
-        setMessage("Account creation successful! Please login now.")
+        setMessage("Success! Please login now.")
       }
       return response.text()
     })

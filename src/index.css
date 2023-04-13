@@ -11,6 +11,7 @@ body {
 
 .food {
   font-size: 3rem;
+
 }
 .fiesta {
   font-size: 3rem;
@@ -109,7 +110,7 @@ body {
   font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
-  height: 4.5rem;
+  height: 5rem;
   padding: 1rem;
   color: rgb(24, 23, 23);
   z-index: 2;
@@ -120,7 +121,8 @@ body {
 .user h1 {
   font-size: 2rem;
   margin-right: 1rem;
-  margin-bottom: 0.2rem;
+  font-weight: 100;
+  
 }
 
 .list-header button {
@@ -132,6 +134,7 @@ body {
 .recipe-list {
   margin-left: 2rem;
   width: 68%;
+
 }
 .recipe-list h2 {
   font-size: 2rem;

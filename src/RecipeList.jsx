@@ -29,12 +29,17 @@ export default function RecipeList({ recipes, userName}) {
    
     <h2>My Recipes</h2>
     <div className="recipe-list"> 
+    
       {recipes.map(recipe => (
         <Recipe key={recipe.id}
-         {...recipe}          
+         {...recipe}  
+                 
          />
+        
       ))}
+       {recipes.length==0&&<div>You have no recipes! Click on Add recipe to start cooking.</div>}
     </div>
+
   
     <div className="img"></div>
    
