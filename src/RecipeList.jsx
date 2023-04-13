@@ -15,6 +15,12 @@ export default function RecipeList({ recipes, userName}) {
     </div>
     <div className="user">
     <h1>Welcome {userName} !</h1 >
+    <button className="add" onClick={handleRecipeAdd}>
+      Add Recipe</button><br/>
+    
+
+    <button className="add" onClick={handleUpdate}> Save changes</button>
+    
     <button className="danger" onClick={handleSignOut}>Sign Out</button>
     </div>
     </div>
@@ -29,11 +35,7 @@ export default function RecipeList({ recipes, userName}) {
          />
       ))}
     </div>
-    <button className="green" onClick={handleRecipeAdd}>
-      Add Recipe</button><br/>
-    
-
-    <button className="green" onClick={handleUpdate}> Save changes</button>
+  
     <div className="img"></div>
    
     </div>
