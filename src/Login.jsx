@@ -6,7 +6,8 @@ export default function Register() {
 
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
-
+  const [message, setMessage] = useState("")
+ 
   function handleSignIn(event) {
     event.preventDefault()
     const msg = document.querySelector("#msg")
@@ -30,14 +31,14 @@ export default function Register() {
       .then((data) => {
         localStorage.setItem("token", data.token)
         const msg = document.querySelector("#msg")
-        msg.innerText = "Login Successful!"
+        setMessage("Login Successful!")
         setTimeout(() => {
           window.location.href = "/account"
         }, 1000);
       })
       .catch((error) => {
         console.error(error)
-        msg.innerText = "Incorrect username or password!"
+        setMessage("Incorrect username or password!")
       })
   }
   
@@ -73,6 +74,6 @@ export default function Register() {
     <div className="hero">
       </div>
 
-    <div id="msg"></div>
+    <div id="msg">{message}</div>
   </div>)
 }

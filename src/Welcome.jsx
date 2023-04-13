@@ -3,6 +3,7 @@ import React, { useState } from "react"
 export default function Welcome() {
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
+  const [message, setMessage] = useState("")
 
 
 
@@ -20,8 +21,7 @@ export default function Welcome() {
     .then(response => {
       if (response.status === 201) {
         console.log('success')
-        const msg = document.querySelector('#msg')
-        msg.innerText = 'Success! Please login now'
+        setMessage("Account creation successful! Please login now.")
       }
       return response.text()
     })
@@ -55,7 +55,7 @@ export default function Welcome() {
     
     <div className="welcome">
       <div className="welcome-cont">
-      <div id="msg"></div>
+      <div id="msg">{message}</div>
       <span className="food">Food</span>
       <span className="fiesta">Fiesta</span>
       <p>Welcome to Food Fiesta! Create and save your favourite recipes!</p>
