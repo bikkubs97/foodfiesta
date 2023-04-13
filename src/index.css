@@ -1,10 +1,9 @@
-
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   
+    font-family: 'Mulish', sans-serif;
 }
 body{
     background: linear-gradient(to right, aliceblue, #daf5a7);
@@ -18,6 +17,7 @@ body{
     color:rgb(50, 190, 50);
   
 }
+
 .welcome{
 
      height: 100vh;
@@ -113,6 +113,7 @@ body{
 .user h1{
    font-size: 2rem;
    margin-right: 1rem;
+   margin-bottom: 0.2rem;
     
     
 }
@@ -128,7 +129,7 @@ body{
 
 }
 .recipe-list{
-    
+
     margin-left: 2rem;
     width: 68%;
 }
@@ -254,9 +255,9 @@ padding-top: 2rem;
     border: none;
     margin-top: 1rem;
     margin-left: 0.3rem;
-   border-radius: 0.2rem;
-   padding-left: 0.3rem;
-   padding-right:0.3rem ;
+    border-radius: 0.2rem;
+    padding-left: 0.3rem;
+    padding-right:0.3rem ;
  
     
 }
@@ -268,9 +269,10 @@ padding-top: 2rem;
     height: 80px;
 }
 .add{
+    background-color: rgb(99, 182, 99); 
+    border: none;
     padding: 1rem;
     margin: 0.2rem;
-    background-color: rgb(99, 182, 99); 
 }
 .add:hover{
     background-color: rgb(99, 182, 99); 
