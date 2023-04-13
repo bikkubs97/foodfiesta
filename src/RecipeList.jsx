@@ -21,7 +21,7 @@ export default function RecipeList({ recipes, userName}) {
 
     <button className="add" onClick={handleUpdate}> Save changes</button>
     
-    <button className="danger" onClick={handleSignOut}>Sign Out</button>
+    <button className="add" onClick={handleSignOut}>Sign Out</button>
     </div>
     </div>
     <div className="recipe-list">

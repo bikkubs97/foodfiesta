@@ -50,7 +50,8 @@ body {
   font-size: 1.2rem;
   padding: 0.5rem;
   width: 7rem;
-  background-color: rgba(132, 238, 132, 0.986);
+  background-color: rgba(78, 161, 78, 0.986);
+ 
   border: none;
 }
 .welcome h2 {
@@ -60,7 +61,7 @@ body {
 }
 
 .welcome button:hover {
-    background-color: rgb(99, 182, 99);
+  background-color: rgba(94, 187, 94, 0.986);
   box-shadow: 0 0 10px 0 rgb(6, 189, 0);
   color: white;
 }
@@ -99,9 +100,9 @@ body {
 }
 
 .login button:hover {
-  background-color: rgb(6, 189, 0);
+  background-color: rgb(0, 138, 0);
   box-shadow: 0 0 10px 0 rgb(6, 189, 0);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .list-header {
   position: sticky;
@@ -184,7 +185,7 @@ body {
   padding: 1rem;
   background-color: rgb(255, 255, 255);
   border-radius: 0.5rem;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
 }
 .recipe-name {
   display: flex;
@@ -197,6 +198,7 @@ body {
   margin-right: 10px;
   padding-top: 2rem;
 }
+
 .recipe-text {
   margin-top: 10px;
   margin-left: 20px;
@@ -217,7 +219,7 @@ body {
   padding-bottom: 1.5rem;
   font-size: 0.8rem;
   z-index: 1;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ 
 }
 .recipe-edit-remove {
   text-align: end;
@@ -228,6 +230,7 @@ body {
 
 .recipe-label {
   font-size: 1.2rem;
+  
 }
 .recipe-input {
   font-size: 1.2rem;
@@ -349,7 +352,7 @@ h4 {
     display: flex;
   }
   .food,
-  .fiesta {
+  .fiesta, .user h1 {
    display: none;
   }
   .user h1 {
