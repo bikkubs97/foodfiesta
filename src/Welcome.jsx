@@ -9,7 +9,7 @@ export default function Welcome() {
 
   function handleSignUp() {
     if( username&&password ){
-    fetch("https://foofiesta-server.onrender.com/users", {
+    fetch("https://foofiesta-server-j46h.onrender.com/users", {
       method: "POST",
       headers: { "Content-Type": "application/json" }, 
       body: JSON.stringify({
