@@ -12,7 +12,7 @@ export default function Register() {
     event.preventDefault()
     const msg = document.querySelector("#msg")
         msg.innerText = "Please Wait....!"
-    fetch("https://foofiesta-server.onrender.com/users/login", {
+    fetch("https://foofiesta-server-j46h.onrender.com/users/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
