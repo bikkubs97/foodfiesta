@@ -50,7 +50,7 @@ export default function RecipeList({ recipes, userName}) {
 
   function handleUpdate() {
     const token = localStorage.getItem('token')
-    fetch('https://foofiesta-server.onrender.com/users/data', {
+    fetch('https://foofiesta-server-j46h.onrender.com/users/data', {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
