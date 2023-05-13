@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     const token = localStorage.getItem('token')
     if (token) {
-      fetch('https://foofiesta-server.onrender.com/users', {
+      fetch('https://foofiesta-server-j46h.onrender.com/users', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
