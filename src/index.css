@@ -1,13 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 
-  font-family: 'Mulish', sans-serif;
+ font-family: 'Poppins', sans-serif;
 }
-body {
-  background: linear-gradient(to right, aliceblue, #daf5a7);
-}
+
 
 .food {
   font-size: 3rem;
@@ -136,6 +137,7 @@ body {
   margin-left: 2rem;
   width: 68%;
 
+
 }
 .recipe-list h2 {
   font-size: 2rem;
@@ -160,7 +162,9 @@ body {
 }
 .danger {
   background-color: rgb(255, 112, 46);
+  color: white;
 }
+
 .danger:hover {
   background-color: rgb(252, 17, 0);
   color: aliceblue;
@@ -170,12 +174,12 @@ body {
 .green {
     background-color: rgb(99, 182, 99);
     margin-top: 0.5rem;
+    color: white;
 }
 .green:hover {
   background-color: rgb(6, 189, 0);
-  box-shadow: 0 0 10px 0 rgb(6, 189, 0);
-  color: white;
-}
+  box-shadow: 0 0 10px 0 rgb(6, 189, 0);}
+
 .reg {
   font-size: 1.5rem;
   padding: 0.2rem;
@@ -186,6 +190,7 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: 0.5rem;
   padding: 2rem;
+  border: 1px solid rgb(255, 145, 0);
 }
 .recipe-name {
   display: flex;
@@ -212,7 +217,8 @@ body {
   right: 3rem;
   overflow-y: auto;
   border-radius: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.986);
+  background-color: rgba(255, 255, 255, 0.808);
+  border: 1px solid rgb(255, 94, 0);
   width: 45%;
   padding-left: 2rem;
   padding-right: 1rem;
@@ -237,12 +243,13 @@ body {
   margin-top: 0.3rem;
   margin-left: 0.2rem;
   border: none;
-  background-color: #daf5a7;
+  background-color: #bae9a7da;
 
   padding: 0.1rem;
 }
 .recipe-edit button {
   font-size: 1.5rem;
+  padding: 0.3rem;
   border: none;
   margin-top: 1rem;
   margin-left: 0.3rem;
@@ -263,11 +270,12 @@ body {
   border: none;
   padding: 1rem;
   margin: 0.2rem;
+  color: white;
 }
 .add:hover {
   background-color: rgb(6, 189, 0);
   box-shadow: 0 0 10px 0 rgb(6, 189, 0);
-  color: white;
+ 
 }
 .login-form button {
   background-color: rgb(99, 182, 99);
