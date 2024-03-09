@@ -36,10 +36,7 @@ db.once('open', () => {
 })
 
 
-/*app.get('/users', async(req, res)=>{
-  const users = await User.find().lean()
-  res.send(users)
-})*/
+app.get('/',(req,res)=>{res.send("response")})
 
 
 app.post('/users', async (req, res) => {
